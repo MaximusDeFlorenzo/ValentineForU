@@ -77,7 +77,6 @@ h1 {
 
 #second {
     display: none;
-    margin-bottom: 1rem;
 }
 
 .Red {
@@ -97,7 +96,6 @@ h1 {
     width: 25rem;
     height: 17rem;
     margin-bottom: 1rem;
-    margin-top: 15rem;
     display: none;
 }
 
@@ -129,6 +127,12 @@ h1 {
         width: 85%;
         float: none;
         margin-left: 0;
+    }
+    #second {
+        margin-bottom: 1rem;
+    }
+    #give {
+        margin-top: 18rem;
     }
 }
 
