@@ -123,7 +123,7 @@ h1 {
 
 @media (max-width: 768px) {
     .middleImage, .middle {
-        margin
+        margin: 2rem 0;
         width: 85%;
         float: none;
         margin-left: 0;
