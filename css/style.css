@@ -1,15 +1,37 @@
-.protest-riot-regular {
-    font-family: "Protest Riot", sans-serif;
+/* .ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
     font-weight: 400;
     font-style: normal;
   }
   
+  .ubuntu-mono-regular-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-mono-bold {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-mono-bold-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+  } */
+  
 
 body {
-    background-color: white;
+    background-color: #696969;
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Ask {
@@ -44,8 +66,9 @@ body {
 /* Happy Valentine CSS */
 
 #bear {
-    width: 10rem;
-    height: 10rem;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
@@ -70,8 +93,8 @@ h1 {
 }   
 
 #give {
-    width: 15rem;
-    height: 10rem;
+    width: 25rem;
+    height: 17rem;
     margin-bottom: 1rem;
     display: none;
 }
@@ -100,16 +123,22 @@ h1 {
 
 @media (max-width: 768px) {
     .middleImage, .middle {
-        width: 100%;
+        margin
+        width: 85%;
         float: none;
+        margin-left: 0;
     }
 }
 
 #give2 {
     margin-bottom: 1rem;
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     display: none;
+}
+
+.sub1 {
+    color: white;
 }
 
 .sub3 {
@@ -117,5 +146,6 @@ h1 {
 }
 
 .sub2, .middle, .middleImage, .container-image {
+    font-size: ubuntu-mono-italic;
     display: none;
 }
